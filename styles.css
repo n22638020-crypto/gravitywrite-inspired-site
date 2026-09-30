@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NebulaAI is the AI writing studio for brands, creators, and teams that want polished content in minutes."
+    />
+    <title>NebulaAI | AI Writing Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="container nav-bar">
+          <div class="brand-wrap">
+            <div class="brand-mark">N</div>
+            <span>NebulaAI</span>
+          </div>
+
+          <button class="mobile-menu" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#templates">Templates</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#pricing">Pricing</a>
+          </div>
+
+          <div class="nav-actions">
+            <a href="#pricing" class="link-btn">Login</a>
+            <a href="#cta" class="primary-btn small">Start free</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-inner">
+            <div class="hero-copy">
+              <div class="eyebrow">AI writing for teams that move fast</div>
+              <h1>Turn ideas into publish-ready content in minutes.</h1>
+              <p>
+                Create blog posts, social campaigns, product copy, and ad assets with
+                brand-aware AI that writes like your best editor.
+              </p>
+
+              <div class="cta-row">
+                <a href="#cta" class="primary-btn">Start writing free</a>
+                <a href="#features" class="secondary-btn">See how it works</a>
+              </div>
+
+              <div class="social-proof">
+                <div>
+                  <strong>3.4M+</strong>
+                  <span>content pieces created</span>
+                </div>
+                <div>
+                  <strong>4.9/5</strong>
+                  <span>average customer rating</span>
+                </div>
+                <div>
+                  <strong>18 hrs</strong>
+                  <span>saved every week</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="demo-window">
+                <div class="window-bar">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <div class="editor-panel">
+                  <div class="prompt-box">
+                    <span class="tag">SEO Blog</span>
+                    <p>Write a thought-leadership article about AI marketing for B2B SaaS brands.</p>
+                  </div>
+
+                  <div class="output-box">
+                    <div class="output-header">
+                      <span>Generated draft</span>
+                      <span class="chip success">Ready to edit</span>
+                    </div>
+                    <ul>
+                      <li>Hook with a stronger market insight</li>
+                      <li>Build a 5-point framework for execution</li>
+                      <li>Include CTA and AI-friendly SEO structure</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="logo-strip">
+          <div class="container logos">
+            <span>Shopify</span>
+            <span>Notion</span>
+            <span>HubSpot</span>
+            <span>Stripe</span>
+            <span>Dropbox</span>
+            <span>Slack</span>
+          </div>
+        </section>
+
+        <section id="features" class="features section-block">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Why teams choose NebulaAI</span>
+              <h2>Built for every part of your content workflow.</h2>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="icon-wrap purple">✦</div>
+                <h3>Long-form generation</h3>
+                <p>Generate full articles, landing pages, and product narratives from a single brief.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap blue">◎</div>
+                <h3>Brand voice tuning</h3>
+                <p>Train your AI to match your tone, style, and messaging categories with zero guesswork.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap green">↗</div>
+                <h3>SEO and conversion</h3>
+                <p>Write for search intent and keep a clear content strategy across your funnel.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap orange">✎</div>
+                <h3>Instant repurposing</h3>
+                <p>Turn one idea into LinkedIn posts, email copy, videos, and ads in one click.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap pink">◎</div>
+                <h3>Team collaboration</h3>
+                <p>Share projects, review drafts, and keep every campaign aligned in one place.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap red">⚡</div>
+                <h3>Faster publishing</h3>
+                <p>Reduce your review cycle and ship content while your competitors are still briefing.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="showcase section-block">
+          <div class="container split-layout">
+            <div class="showcase-copy">
+              <span class="eyebrow">From prompt to polished draft</span>
+              <h2>Everything you need to create high-quality content without the drag.</h2>
+              <ul class="check-list">
+                <li>Generate ideas from product launches, campaigns, and customer interviews</li>
+                <li>Write structured SEO content with clear headings and summaries</li>
+                <li>Rework drafts for voice, clarity, and conversion in seconds</li>
+              </ul>
+            </div>
+
+            <div class="workflow-card">
+              <div class="step">
+                <span class="step-no">01</span>
+                <div>
+                  <h4>Choose a workflow</h4>
+                  <p>Blog, landing page, product copy, ad creative, email, or social.</p>
+                </div>
+              </div>
+
+              <div class="step">
+                <span class="step-no">02</span>
+                <div>
+                  <h4>Describe your goal</h4>
+                  <p>Give the AI context, audience, and the exact outcome you need.</p>
+                </div>
+              </div>
+
+              <div class="step">
+                <span class="step-no">03</span>
+                <div>
+                  <h4>Review and publish</h4>
+                  <p>Use AI editing, brand guardrails, and export to ship faster.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="templates" class="templates section-block">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Popular templates</span>
+              <h2>Start from a proven content format.</h2>
+            </div>
+
+            <div class="template-grid">
+              <div class="template-card">
+                <span class="template-label">Blog</span>
+                <h3>SEO article writer</h3>
+                <p>Outline, draft, and optimize long-form content with search intent built in.</p>
+              </div>
+
+              <div class="template-card">
+                <span class="template-label">Ads</span>
+                <h3>Creative ad suite</h3>
+                <p>Build high-converting ad variants for Meta, Google, TikTok, and LinkedIn.</p>
+              </div>
+
+              <div class="template-card">
+                <span class="template-label">Product</span>
+                <h3>Homepage copy</h3>
+                <p>Write messaging that communicates value clearly and improves conversion.</p>
+              </div>
+
+              <div class="template-card">
+                <span class="template-label">Social</span>
+                <h3>Campaign engine</h3>
+                <p>Generate a launch plan with hook ideas, CTAs, and post variations.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="reviews" class="reviews section-block">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Loved by creators and teams</span>
+              <h2>Writers, marketers, and operators are moving faster.</h2>
+            </div>
+
+            <div class="review-grid">
+              <article class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>“NebulaAI gave our team a clear content engine. We ship faster and the copy quality stays consistent.”</p>
+                <div class="reviewer">
+                  <strong>Alicia Gomez</strong>
+                  <span>VP Marketing, Northstar</span>
+                </div>
+              </article>
+
+              <article class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>“The SEO and repurposing workflow is incredibly useful. One brief turns into a full campaign.”</p>
+                <div class="reviewer">
+                  <strong>Marcus Lee</strong>
+                  <span>Founder, RoundPeak</span>
+                </div>
+              </article>
+
+              <article class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>“It feels like a content team without the overhead. The AI writes like our brand, not like a generic bot.”</p>
+                <div class="reviewer">
+                  <strong>Sophie Prentice</strong>
+                  <span>Head of Growth, Flare Studio</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing" class="pricing section-block">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Simple pricing</span>
+              <h2>Choose the plan that matches your content engine.</h2>
+            </div>
+
+            <div class="pricing-grid">
+              <div class="price-card">
+                <h3>Starter</h3>
+                <div class="price-line"><span>$0</span><small>/mo</small></div>
+                <ul>
+                  <li>3 AI projects</li>
+                  <li>Basic templates</li>
+                  <li>Watermarked exports</li>
+                </ul>
+                <a href="#cta" class="secondary-btn">Try free</a>
+              </div>
+
+              <div class="price-card featured">
+                <div class="badge">Most popular</div>
+                <h3>Pro</h3>
+                <div class="price-line"><span>$29</span><small>/mo</small></div>
+                <ul>
+                  <li>Unlimited content drafts</li>
+                  <li>Brand voice customization</li>
+                  <li>SEO content workflows</li>
+                  <li>Team collaboration</li>
+                </ul>
+                <a href="#cta" class="primary-btn">Start Pro</a>
+              </div>
+
+              <div class="price-card">
+                <h3>Scale</h3>
+                <div class="price-line"><span>$99</span><small>/mo</small></div>
+                <ul>
+                  <li>Advanced automations</li>
+                  <li>Custom integrations</li>
+                  <li>Priority support</li>
+                  <li>Shared workspace controls</li>
+                </ul>
+                <a href="#cta" class="secondary-btn">Talk to sales</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cta" class="cta section-block">
+          <div class="container cta-box">
+            <div>
+              <span class="eyebrow">Ready to create smarter?</span>
+              <h2>Ship content faster with your AI content studio.</h2>
+            </div>
+            <a href="#" class="primary-btn large">Get started free</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div class="brand-wrap">
+            <div class="brand-mark">N</div>
+            <span>NebulaAI</span>
+          </div>
+          <div class="footer-links">
+            <a href="#features">Features</a>
+            <a href="#templates">Templates</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#pricing">Pricing</a>
+          </div>
+          <p>© <span id="year"></span> NebulaAI</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
